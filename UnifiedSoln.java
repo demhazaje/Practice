@@ -10,7 +10,7 @@ class UnifiedSoln
 		Scanner sc=new Scanner(System.in);
 		int N=sc.nextInt();
 		int Q=sc.nextInt();
-		if(N>=1 && Q<=3) {
+		if(N>=1 && Q>=3) {
 		    int arr[]=new int[N];
 		    for(i=0;i<N;i++)
 		        arr[i]=0;
